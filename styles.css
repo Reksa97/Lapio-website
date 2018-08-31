@@ -1,21 +1,36 @@
 .containerRed {
     margin: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: green;
     height: 200px;
     width: 200px;
     background-color: red
 }
 .containerYellow {
     margin: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
     height: 200px;
     width: 200px;
-    background-color: yellow   
+    background-color: yellow
 }
 .containerGreen {
     margin: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: yellow;
     height: 200px;
     width: 200px;
     background-color: green
 }
 .container {
     display: flex
+}
+
+p {
+    color: blue;
+    margin-top: 45%;
+    text-align: center
 }
